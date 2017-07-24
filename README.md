@@ -62,7 +62,7 @@ function mbv_read_single(err, res, data) {
 Functions
 =========
 
-### MailboxValidator_init()
+### MailboxValidator_init(api_key)
 
 Creates a new instance of the MailboxValidator object with the API key.
 
