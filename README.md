@@ -21,7 +21,7 @@ Dependencies
 
 An api key is required for this module to function.
 
-Go to http://www.mailboxvalidator.com/plans#api to sign up for FREE API plan and you'll be given an API key.
+Go to https://www.mailboxvalidator.com/plans#api to sign up for FREE API plan and you'll be given an API key.
 
 Usage
 =====
@@ -197,4 +197,4 @@ Errors
 Copyright
 =========
 
-Copyright (C) 2017 by MailboxValidator.com, support@mailboxvalidator.com
+Copyright (C) 2018 by MailboxValidator.com, support@mailboxvalidator.com
