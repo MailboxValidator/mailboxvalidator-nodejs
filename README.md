@@ -23,8 +23,8 @@ An api key is required for this module to function.
 
 Go to https://www.mailboxvalidator.com/plans#api to sign up for FREE API plan and you'll be given an API key.
 
-Usage
-=====
+Usage for validation email
+==========================
 
 ```javascript
 var mbv = require("mailboxvalidator-nodejs");
@@ -180,6 +180,123 @@ The error code if there is any error. See error table below.
 ### error_message
 
 The error message if there is any error. See error table below.
+
+
+Usage for checking if the email is from a disposable email provider
+===================================================================
+
+```javascript
+var mbv = require("mailboxvalidator-nodejs");
+
+mbv.MailboxValidator_init("YOUR_API_KEY");
+
+mbv.MailboxValidator_disposable_email("example@example.com", mbv_read_disposable);
+
+function mbv_read_disposable(err, res, data) {
+	if (!err && res.statusCode == 200) {
+		console.log("email_address: " + data.email_address);
+		console.log("is_disposable: " + data.is_disposable);
+		console.log("credits_available: " + data.credits_available);
+		console.log("error_code: " + data.error_code);
+		console.log("error_message: " + data.error_message);
+	}
+}
+```
+
+Functions
+=========
+
+### MailboxValidator_init(api_key)
+
+Creates a new instance of the MailboxValidator object with the API key.
+
+### MailboxValidator_disposable_email(email_address, callback_function)
+
+Performs disposable email check on the supplied email address and a callback function.
+
+Result Fields
+=============
+
+### email_address
+
+The input email address.
+
+### is_disposable
+
+Whether the email address is a temporary one from a disposable email provider.
+
+Return values: True, False
+
+### credits_available
+
+The number of credits left to perform validations.
+
+### error_code
+
+The error code if there is any error. See error table below.
+
+### error_message
+
+The error message if there is any error. See error table below.
+
+
+Usage for checking if the email is from a free email provider
+=============================================================
+
+```javascript
+var mbv = require("mailboxvalidator-nodejs");
+
+mbv.MailboxValidator_init("YOUR_API_KEY");
+
+mbv.MailboxValidator_free_email("example@example.com", mbv_read_free);
+
+function mbv_read_free(err, res, data) {
+	if (!err && res.statusCode == 200) {
+		console.log("email_address: " + data.email_address);
+		console.log("is_free: " + data.is_free);
+		console.log("credits_available: " + data.credits_available);
+		console.log("error_code: " + data.error_code);
+		console.log("error_message: " + data.error_message);
+	}
+}
+```
+
+Functions
+=========
+
+### MailboxValidator_init(api_key)
+
+Creates a new instance of the MailboxValidator object with the API key.
+
+### MailboxValidator_free_email(email_address, callback_function)
+
+Performs free email check on the supplied email address and a callback function.
+
+Result Fields
+=============
+
+### email_address
+
+The input email address.
+
+### is_free
+
+Whether the email address is from a free email provider like Gmail or Hotmail.
+
+Return values: True, False
+
+### credits_available
+
+The number of credits left to perform validations.
+
+### error_code
+
+The error code if there is any error. See error table below.
+
+### error_message
+
+The error message if there is any error. See error table below.
+
 
 Errors
 ======

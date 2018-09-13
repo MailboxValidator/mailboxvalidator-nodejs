@@ -1,13 +1,13 @@
 {
 	"name": "mailboxvalidator-nodejs",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "MailboxValidator API",
 	"keywords": ["mailboxvalidator api", "email validation"],
-	"homepage": "http://www.mailboxvalidator.com/nodejs",
+	"homepage": "https://www.mailboxvalidator.com/nodejs",
 	"author": {
 		"name": "MailboxValidator.com",
 		"email": "sales@mailboxvalidator.com",
-		"url": "http://www.mailboxvalidator.com/"
+		"url": "https://www.mailboxvalidator.com/"
 	},
 	"files": ["src/mailboxvalidator.js","src/test.js","./README.md"],
 	"main": "src/mailboxvalidator.js",
