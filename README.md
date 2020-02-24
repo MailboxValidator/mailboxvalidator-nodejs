@@ -1,7 +1,7 @@
 MailboxValidator Node.js Module
 ===============================
 
-This Node.js module provides an easy way to call the MailboxValidator API which validates if an email address is a valid one.
+MailboxValidator Node.js module enable users to block disposal email, detect free email and validate if an email is valid.
 
 This module can be used in many types of projects such as:
 
