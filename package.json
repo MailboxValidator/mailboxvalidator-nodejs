@@ -1,6 +1,6 @@
 {
 	"name": "mailboxvalidator-nodejs",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "MailboxValidator API",
 	"keywords": ["mailboxvalidator api", "email validation"],
 	"homepage": "https://www.mailboxvalidator.com/nodejs",
