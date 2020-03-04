@@ -1,8 +1,8 @@
 {
 	"name": "mailboxvalidator-nodejs",
-	"version": "1.1.1",
-	"description": "MailboxValidator API",
-	"keywords": ["mailboxvalidator api", "email validation"],
+	"version": "1.1.2",
+	"description": "MailboxValidator Node.js module enable users to block disposal email, detect free email and validate if an email is valid",
+	"keywords": ["email validation", "disposable", "invalid email", "free email", "fake email"],
 	"homepage": "https://www.mailboxvalidator.com/nodejs",
 	"author": {
 		"name": "MailboxValidator.com",

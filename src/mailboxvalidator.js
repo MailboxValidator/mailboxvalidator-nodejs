@@ -1,6 +1,6 @@
 var https = require('https');
 
-var version = "1.1.1";
+var version = "1.1.2";
 var apikey = "";
 var singleurl = "https://api.mailboxvalidator.com/v1/validation/single";
 var disposableurl = "https://api.mailboxvalidator.com/v1/email/disposable";
