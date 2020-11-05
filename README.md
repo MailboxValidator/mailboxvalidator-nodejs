@@ -1,3 +1,6 @@
+![npm](https://img.shields.io/npm/v/mailboxvalidator-nodejs)
+![npm](https://img.shields.io/npm/dm/mailboxvalidator-nodejs)
+
 MailboxValidator Node.js Module
 ===============================
 
@@ -314,4 +317,4 @@ Errors
 Copyright
 =========
 
-Copyright (C) 2018 by MailboxValidator.com, support@mailboxvalidator.com
+Copyright (C) 2020 by MailboxValidator.com, support@mailboxvalidator.com
