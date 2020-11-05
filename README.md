@@ -1,5 +1,5 @@
-![npm](https://img.shields.io/npm/v/mailboxvalidator-nodejs)
-![npm](https://img.shields.io/npm/dm/mailboxvalidator-nodejs)
+[![npm](https://img.shields.io/npm/v/mailboxvalidator-nodejs)]((http://npm.im/mailboxvalidator-nodejs))
+[![npm](https://img.shields.io/npm/dm/mailboxvalidator-nodejs)]((http://npm.im/mailboxvalidator-nodejs))
 
 MailboxValidator Node.js Module
 ===============================
