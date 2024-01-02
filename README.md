@@ -270,4 +270,4 @@ The number of credits left to perform validations.
 Copyright
 =========
 
-Copyright (C) 2023 by MailboxValidator.com, support@mailboxvalidator.com
+Copyright (C) 2024 by MailboxValidator.com, support@mailboxvalidator.com
